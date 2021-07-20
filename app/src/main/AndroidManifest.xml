@@ -1,10 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myapplication">
+    package="com.proyectosalta.app">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="App Name"
+        android:label="Proyecto Salta"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -17,7 +17,7 @@
             <!-- Edit android:value to change the url opened by the TWA -->
             <meta-data
                 android:name="android.support.customtabs.trusted.DEFAULT_URL"
-                android:value="https://www.example.com/the_default_page_of_your_pwa" />
+                android:value="https://proyectosalta.com/" />
 
             <!-- This intent-filter adds the TWA to the Android Launcher -->
             <intent-filter>
@@ -37,7 +37,7 @@
                 <!-- Edit android:host to handle links to the target URL-->
                 <data
                     android:scheme="https"
-                    android:host="example.com"/>
+                    android:host="proyectosalta.com"/>
             </intent-filter>
         </activity>
     </application>

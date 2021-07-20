@@ -5,7 +5,7 @@
             \"relation\": [\"delegate_permission/common.handle_all_urls\"],
             \"target\": {
                 \"namespace\": \"web\",
-                \"site\": \"https://www.example.com/the_default_page_of_your_pwa\"}
+                \"site\": \"https://proyectosalta.com/\"}
         }]
     </string>
 </resources>
